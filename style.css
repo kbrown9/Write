@@ -237,6 +237,7 @@ body.admin-bar .bw-main {
 	overflow: hidden;
 	box-sizing: border-box;
 	field-sizing: content;
+	text-wrap: stable;
 }
 
 .bw-title::placeholder {
@@ -481,6 +482,11 @@ body.admin-bar .bw-main {
 	outline: none;
 	overflow-wrap: break-word;
 	word-break: normal;
+	text-wrap: stable;
+}
+
+.bw-content * {
+	text-wrap: stable;
 }
 
 .bw-content:empty::before {
